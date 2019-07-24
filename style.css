@@ -5,3 +5,10 @@ nav img,footer img{
 footer img,footer p{
     display: inline-block;
 }
+section img{
+    height: 100px;
+    width: 100px;
+}
+section{
+    border: 1px solid red;
+}
