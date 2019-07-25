@@ -2,6 +2,16 @@ nav img,footer img{
     width:50px;
     height: 50px;
 }
+nav li{
+    font-family: myriad-pro;
+}
+h1{
+    word-spacing: 90000px;
+    font-family: mr-eaves-modern;
+}
+p{
+    font-family: myriad-pro;
+}
 footer img,footer p{
     display: inline-block;
 }
@@ -11,4 +21,20 @@ section img{
 }
 section{
     border: 1px solid red;
+}
+nav{
+    border: 1px solid blue;
+}
+#h1Con{
+    border:3px solid green;
+    width: 35%;
+}
+#reason{
+    margin-top: 3rem;
+    width:65%;
+}
+.iconCol{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 1rem;
 }
