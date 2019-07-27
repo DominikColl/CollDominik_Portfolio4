@@ -38,3 +38,32 @@ nav{
     text-align: center;
     padding: 1rem;
 }
+footer{
+    border: 1px solid red;
+}
+article{
+    border: 1px solid red;
+}
+ul{
+    margin-top: 2rem;
+}
+ul article{
+    display: inline-block;
+}
+#wrapper{
+    width:95%;
+    margin: 0 auto;
+    border:1px solid red;
+}
+.carWrapper{
+    height: 200px;
+}
+#whyUS{
+    float:right;
+    width:35%;
+    margin-right:5em;
+  }
+  #services{
+    clear:right;
+   margin-left:5rem;
+  }
