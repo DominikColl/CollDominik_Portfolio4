@@ -50,11 +50,7 @@ ul{
 ul article{
     display: inline-block;
 }
-#wrapper{
-    width:95%;
-    margin: 0 auto;
-    border:1px solid red;
-}
+
 .carWrapper{
     height: 200px;
 }
@@ -67,3 +63,43 @@ ul article{
     clear:right;
    margin-left:5rem;
   }
+  nav {
+      background-color: #025E7B;
+  }
+nav a {
+    color:white;
+}
+#keyvalueicons{
+    background-color: #55B1AA;
+}
+#linkarticles li{
+    height: 75px;
+  
+}
+#linkarticles ul{
+    margin-left: 19%;
+}
+#wrapper{
+    width:95%;
+    margin: 0 auto;
+    border:1px solid red;
+}
+#bottomnav a{
+    border: 1px solid blue;
+    margin-left: 25%;
+}
+#bottomnav a:last-of-type{
+    margin-left:30%;
+}
+footer{
+    background-color: #025E7B;
+}
+footer img{
+   margin-left: 33.5%;
+}
+footer p:first-of-type{
+    margin-left: 2rem;
+}
+footer p:last-of-type{
+   margin-left: 40%;
+}
