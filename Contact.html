@@ -22,18 +22,24 @@
              </nav>
              <form>
         <h2>Book Appoitment</h2>
-        <div class='inputs'>
+        <div class='form-group inputs'>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name"class="form-control" id="name">
         </div>
-        <div class='inputs'>
+        <div class='form-group inputs'>
         <label for="email">Email</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" class="form-control" id="email">
           </div>
-         <div class='inputs'>
+         <div class='form-group inputs'> 
         <label for="phone">Phone</label>
-        <input type="text" name="phone" id="phone">
-        </div>
+        <input type="text" name="phone" class="form-control" id="phone">
+      </div>
+      <div class="form-group inputs">
+         <label for="date">Date</label>
+         <input type="date" name="date" class="form-control" id="date">
+      </div>
+        <button type="submit" class="btn btn-primary">Contact</button>
+        
       </form>
       <div id='googleMaps'>
       <h2>Google Maps</h2>
