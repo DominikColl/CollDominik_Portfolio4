@@ -9,10 +9,15 @@ h1{
     word-spacing: 90000px;
     font-family: mr-eaves-modern;
 }
+h2{
+    font-family: mr-eaves-modern;
+    font-size: 2rem;
+}
 p{
     font-family: myriad-pro;
 }
 footer img,footer p{
+    color: white;
     display: inline-block;
 }
 section img{
@@ -60,6 +65,7 @@ ul article{
     margin-right:5em;
   }
   #services{
+    width:35%;
     clear:right;
    margin-left:5rem;
   }
@@ -84,9 +90,16 @@ nav a {
     margin: 0 auto;
     border:1px solid red;
 }
+#bottomnav{
+   border: 1px solid red;
+   margin-top: 5rem;
+}
 #bottomnav a{
+    display: inline-block;
     border: 1px solid blue;
     margin-left: 25%;
+    height: 50px;
+    width: 150px;
 }
 #bottomnav a:last-of-type{
     margin-left:30%;
@@ -102,4 +115,27 @@ footer p:first-of-type{
 }
 footer p:last-of-type{
    margin-left: 40%;
+}
+form{
+    /* border: 1px solid red; */
+    width:45%;  
+    padding:3rem 0 0 5rem;
+    float:left;
+  }
+  #googleMaps{
+    clear: left;
+    width:30%;
+    float: right;
+  }
+  footer{
+      clear: right;
+  }
+  #map {
+    height: 100% ;
+  }
+#googleMaps{
+height: 400px;
+width: 400px;
+margin-bottom: 3rem;
+margin-right: 3rem;
 }
