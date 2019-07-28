@@ -203,6 +203,7 @@ article li{
     background-repeat: no-repeat;
     /* first param is width second is hegiht */
     background-size: 300px 200px;
+    margin-left: 2.3rem;
 }
 #linkarticles article:nth-of-type(2){
     background-image: url('images/cat.jpg');
@@ -218,13 +219,11 @@ article li{
 }
 #linkarticles li{
     height: 200px;
-   
     /* padding: 1rem; */
     color: white;
     width: 300px;
     text-align: center;
 }
-
 li a{
     color: white;
 }
@@ -232,7 +231,8 @@ li a:visited{
     color: white;
 }
 #linkarticles ul{
-    margin-left: 25%;
+    width: 95%;
+    margin-top: 1rem;
 }
 @media only screen and (max-width: 1680px) {
     #linkarticles ul{
