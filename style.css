@@ -172,8 +172,25 @@ form{
   }
   #googleMaps{
     clear: left;
-    width:30%;
+    width:80%;
     float: right;
+  }
+  @media only screen and (max-width: 890px) {
+    #googleMaps {
+   text-align: center;
+    }
+  }
+  @media only screen and (max-width: 915px) {
+    #map {
+   width: 50%;
+   margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 690px) {
+    #map {
+   width: 40%;
+   margin-left: 45%;
+    }
   }
   footer{
       clear: right;
