@@ -226,7 +226,7 @@ form button{
     background-repeat: no-repeat;
     /* first param is width second is hegiht */
     background-size: 300px 200px;
-    margin-left: 2.3rem;
+    margin-left: 1rem;
 }
 #linkarticles li:nth-of-type(2){
     background-image: url('images/cat.jpg');
@@ -270,12 +270,13 @@ li a:visited{
     color: black;
 }
 #linkarticles ul{
-    width: 95%;
+
     margin-top: 1rem;
+   
 }
 @media only screen and (max-width: 1680px) {
     #linkarticles ul{
-     margin-left: 20%;
+     margin-left: 18%;
     }
   }
   @media only screen and (max-width: 1400px) {
