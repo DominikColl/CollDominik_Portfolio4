@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 nav img,footer img{
     width:50px;
     height: 50px;
 }
+a:hover{
+    transform: scale(1.3);
+}
+
 nav li{
-    font-family: myriad-pro;
+    font-family: myriad-pro,sans-serif;
+    color: black;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
 }
 h1{
     word-spacing: 90000px;
-    font-family: mr-eaves-modern;
+    font-family: 'Quicksand', sans-serif;
     margin-left: 1.5rem;
 }
 h2{
-    font-family: mr-eaves-modern;
+    font-family: mr-eaves-modern,sans-serif;
     font-size: 2rem;
     border-bottom: 2px solid grey;
     padding:.5rem;
 }
-
 p{
-    font-family: myriad-pro;
+    font-family: myriad-pro,sans-serif;
 }
 footer img,footer p{
     color: white;
@@ -40,12 +49,8 @@ section img{
     text-align: center;
     padding: 1rem;
 }
-
 ul{
     margin-top: 2rem;
-}
-ul article{
-    display: inline-block;
 }
 @media only screen and (max-width: 1043px) {
     ul article{
@@ -115,7 +120,7 @@ ul article{
       background-color: #025E7B;
   }
 nav a {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 #keyvalueicons{
     background-color: #55B1AA;
@@ -128,6 +133,7 @@ nav a {
     margin-left: 25%;
     height: 50px;
     width: 150px;
+    border: 3px solid black;
 }
 #bottomnav a:last-of-type{
     margin-left:27.3%;
@@ -212,40 +218,56 @@ margin-right: 88px;
 form button{
     display: block;
 }
-article li{
+#linkedarticles li{
     font-family: myriad-pro;
 }
-#linkarticles article:first-of-type{
+#linkarticles li:first-of-type{
     background-image: url('images/tired.jpg');
     background-repeat: no-repeat;
     /* first param is width second is hegiht */
     background-size: 300px 200px;
     margin-left: 2.3rem;
 }
-#linkarticles article:nth-of-type(2){
+#linkarticles li:nth-of-type(2){
     background-image: url('images/cat.jpg');
     background-repeat: no-repeat;
     /* first param is width second is hegiht */
     background-size: 300px 200px;
 }
-#linkarticles article:last-of-type{
+#linkarticles li:last-of-type{
     background-image: url('images/hamsster.jpg');
     background-repeat: no-repeat;
     /* first param is width second is hegiht */
     background-size: 300px 200px;
 }
 #linkarticles li{
+    display: inline-block;
+    margin: 2rem;
+    
+}
+
+#linkarticles li{
     height: 200px;
     /* padding: 1rem; */
-    color: white;
+    color: black;
     width: 300px;
     text-align: center;
+     border: 3px solid black; 
+}
+.row section{
+    border: 3px solid black;
 }
 li a{
     color: white;
 }
 li a:visited{
     color: white;
+}
+#cat{
+    color: black;
+}
+#cat a:visited{
+    color: black;
 }
 #linkarticles ul{
     width: 95%;
