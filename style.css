@@ -62,59 +62,48 @@ ul{
 }
 #whyUS{
     float:right;
-    width:45%;
+    width:85%;
     margin-top: 1rem;
     margin-right:5em;
     line-height: 1.3rem;
     margin-bottom: 5rem;
+   
+  }
+  #whyUS h2, #whyUS p{
+      float: right;
+      width: 55%;
   }
   #whyUS img{
-    position: absolute;
-    top: 10%;
-    right: 70%;
-    margin-bottom: 1rem;
+   float: left;
   } 
-   @media only screen and (max-width: 1570px) {
-   #whyUS img{
-    position: absolute;
-    top: 13.5%;
-    right: 53%;
-    margin-bottom: 1rem;
-     }
-   }
-   @media only screen and (max-width: 1080px) {
-    #whyUS img{
-     height: 0px;
-     width: 0px;
-      }
-    }
+ 
  #whyUs h2{
     padding:2rem;
  }
   #services{
-    width:45%;
-    clear:right;
+      float: left;
+    width:85%;
    margin-left:5rem;
    margin-top: 1rem;
+   margin-bottom: 10.1%;
   }
   #services img{
-    position: absolute;
-    right: 20%;
-    bottom: 35%;
+   float: right;
+
 }
-@media only screen and (max-width: 1570px) {
-  #services img{
-    position: absolute;
-    right: 5%;
-    bottom: 25%;
+
+@media only screen and (max-width: 1043px) {
+    #services img{
+     width: 0;
+     height: 0;
     }
   }
-  @media only screen and (max-width: 1080px) {
-    #services img{
-     height: 0px;
-     width: 0px;
-      }
-    }
+/* bootstrap list was display block giving took me forever */
+#services ul,#services h2{
+    width: 55%;
+    display: inline-block;
+}
+
   /* 1080px */
   nav {
       background-color: #025E7B;
@@ -141,6 +130,14 @@ nav a {
 footer{
     background-color: #025E7B;
     padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#footer{
+   clear: both;
+}
+#footer p{
+   padding: 1rem;
 }
 footer img{
    margin-left: 33.5%;
@@ -174,30 +171,14 @@ form{
     width:45%;  
     /* padding:3rem 0 0 5rem; */
     float:left;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
   }
   #googleMaps{
     clear: left;
-    width:80%;
+    width:90%;
     float: right;
   }
-  @media only screen and (max-width: 890px) {
-    #googleMaps {
-   text-align: center;
-    }
-  }
-  @media only screen and (max-width: 915px) {
-    #map {
-   width: 50%;
-   margin: 0 auto;
-    }
-  }
-  @media only screen and (max-width: 690px) {
-    #map {
-   width: 40%;
-   margin-left: 45%;
-    }
-  }
+  
   footer{
       clear: right;
       margin-top: 1.5rem;
@@ -210,11 +191,27 @@ form{
   }
 #googleMaps{
 height: 400px;
-width: 800px;
+width:94%;
 margin-top: 1rem;
 margin-bottom: 4.5rem;
 margin-right: 88px;
+margin-left: 5rem;
 }
+@media only screen and (max-width: 1334px) {
+    #googleMaps{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    #googleMaps{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #googleMaps{
+        width: 70%;
+    }
+  }
 form button{
     display: block;
 }
@@ -314,13 +311,13 @@ li a:visited{
   @media only screen and (max-width: 850px) {
     #bottomnav a:first-of-type{
      display: block;
-     margin-left: 43%;
+     margin-left: 35%;
      }
    }
    @media only screen and (max-width: 850px) {
     #bottomnav a:last-of-type{
      display: block;
-     margin-left: 43%;
+     margin-left: 35%;
      }
    }
 #whyUS p{
