@@ -15,6 +15,12 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+#hook{
+    border: 3px solid black; 
+}
+#carouselExampleControls{
+    border: 3px solid black; 
+}
 h1{
     word-spacing: 90000px;
     font-family: 'Quicksand', sans-serif;
@@ -91,7 +97,12 @@ ul{
    float: right;
 
 }
-
+@media only screen and (max-width: 1043px) {
+    #whyUS img{
+    margin-top: .5rem;
+    width: 100%;
+    }
+  }
 @media only screen and (max-width: 1043px) {
     #services img{
      width: 0;
@@ -143,7 +154,7 @@ footer img{
    margin-left: 33.5%;
 }
 footer p:first-of-type{
-    margin-left: 2rem;
+    margin-left: 5%;
 }
 footer p:last-of-type{
    margin-left: 44.5%;
@@ -152,6 +163,12 @@ footer p:last-of-type{
     footer p:last-of-type {
       margin-left: 35%;
       margin-right: 1rem;
+    }
+  }
+  @media only screen and (max-width: 1588px) {
+    footer p:last-of-type {
+      margin-left: 20%;
+      margin-right: 2rem;
     }
   }
   @media only screen and (max-width: 1288px) {
@@ -163,7 +180,7 @@ footer p:last-of-type{
   @media only screen and (max-width: 880px) {
     footer img {
     position: relative;
-    right: 30%;
+    right: 0;
     }
   }
 form{
@@ -266,9 +283,12 @@ li a:visited{
     color: black;
 }
 #linkarticles ul{
-    width: 95%;
+    width: 65%;
     margin-top: 1rem;
     margin-left: 22%;
+}
+#linkarticles li:first-of-type{
+    margin-left: 13%;
 }
  @media only screen and (max-width: 700px) {
     #linkarticles li{
@@ -276,7 +296,16 @@ li a:visited{
      width: 60%;
     }
   }
- 
+  @media only screen and (max-width: 700px) {
+    #linkarticles ul{
+   margin-left: 30%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    #linkarticles li:first-of-type{
+margin: 0;
+    }
+  }
 .contain01{
     width: 99.1%;
 }
