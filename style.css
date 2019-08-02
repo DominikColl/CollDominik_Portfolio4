@@ -21,11 +21,17 @@ a:visited{
 #carouselExampleControls{
     border: 3px solid black; 
 }
-h1{
+#hook h1{
     word-spacing: 90000px;
     font-family: 'Quicksand', sans-serif;
     margin-left: 1.5rem;
 }
+nav h1{
+    font-size: 1.3rem;
+    text-align: left;
+    margin-right: 75%;
+}
+
 h2{
     font-family: mr-eaves-modern,sans-serif;
     font-size: 2rem;
@@ -234,6 +240,7 @@ form button{
 }
 #linkedarticles li{
     font-family: myriad-pro;
+   
 }
 #linkarticles li:first-of-type{
     background-image: url('images/tired.jpg');
@@ -256,7 +263,7 @@ form button{
 }
 #linkarticles li{
     display: inline-block;
-    margin: 0;
+    margin: 1rem;
 }
 
 #linkarticles li{
@@ -284,8 +291,8 @@ li a:visited{
 }
 #linkarticles ul{
     width: 65%;
-    margin-top: 1rem;
-    margin-left: 22%;
+    margin-top: 3rem;
+    margin-left: 20%;
 }
 #linkarticles li:first-of-type{
     margin-left: 13%;
@@ -298,12 +305,13 @@ li a:visited{
   }
   @media only screen and (max-width: 700px) {
     #linkarticles ul{
-   margin-left: 30%;
+   margin-left: 25%;
     }
   }
   @media only screen and (max-width: 700px) {
     #linkarticles li:first-of-type{
 margin: 0;
+margin-left: 4%;
     }
   }
 .contain01{
@@ -315,6 +323,7 @@ margin: 0;
    height: 5rem;
    width: 12rem;
    text-align: center;
+   margin-top: 3rem;
 }
 #bottomnav a:visited{
     color:black;
